@@ -10,6 +10,14 @@
     tools:layout_editor_absoluteY="25dp"
     tools:layout_editor_absoluteX="0dp">
 
+
+    // Button + 3 PlainTextfelder
+    // Plaintextfelder durch ID Kennzeichnen damit man sie ansprechen kann
+    // im plaintextfeld einstellen das nur zahleneingegeben werden können
+    // mit android:inputType="numberDecimal"
+    // Button mit Methode verknüpfen :  android:onClick="Berechnung"
+    // mit Constraints felder an position binden
+
     <Button
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Small"
